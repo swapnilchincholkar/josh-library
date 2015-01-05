@@ -17,9 +17,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: josh-library-dev
+  database: josh_library_dev
   pool: 5
-  username: postgres
+  username: pratik
   password: josh123
 
   # Connect on a TCP socket. Omitted by default since the client uses a
