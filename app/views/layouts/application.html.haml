@@ -1,7 +1,7 @@
 !!!
 %html
   %head
-    %title Hash Tags Maps
+    %title Josh Library
     = stylesheet_link_tag    'application', media: 'all'
     = javascript_include_tag 'application'
     = csrf_meta_tags
@@ -20,7 +20,7 @@
     <![endif]-->
 
 
-  %body.index{id: 'page-top'}
+  %body.index
     = render 'header'
     = yield
     = render 'footer'
